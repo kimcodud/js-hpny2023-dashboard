@@ -1,0 +1,48 @@
+a {
+  text-decoration: none;
+}
+
+.mainTop {
+  background-color: aqua;
+  width: 100vw;
+  max-width: 640px;
+  height: 100%;
+  /* padding: 20px; */
+  flex-direction: column;
+  padding-top: 100px;
+  margin: auto;
+}
+
+.mainTitleWrap {
+  background-color: aliceblue;
+  width: 640px;
+  height: 55px;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+}
+
+.uploadBtnWrap {
+  background-color: yellow;
+  position: fixed;
+  height: 70px;
+  top: 40px;
+}
+
+.uploadBtn {
+  background-color: blue;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  height: 50px;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+.uploadLink {
+  color: antiquewhite;
+}
